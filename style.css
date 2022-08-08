@@ -1,0 +1,104 @@
+.fixed {
+    width: auto;
+}
+
+header {
+    background: white;
+    padding: 10px 0;
+}
+
+.cabeçalho {
+    text-align: center;
+}
+
+.principal {
+    text-align: center;
+    background: rgb(177, 140, 192);
+}
+
+nav {
+    background: rgb(177, 140, 192);
+    text-align: center;
+    top: 100px;
+    right: auto;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+.produtos {
+    width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 10px 0%;
+	vertical-align: top;
+	margin: 10px 20px 10px 20px;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border-color: rgb(177, 140, 192);
+}
+
+.produtos li:active {
+	border-color: rgb(177, 140, 192);	
+}
+
+.produtos li:hover h2 {
+	font-size: 30px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos {
+	padding: 0em 200px;
+	background: linear-gradient(#d3d3d3, #d3d3d3 );
+}
+
+.favoritar {
+    margin-left: 10px;
+    padding: 4px;
+    content: '🤍';
+
+}
+
+.favoritar:hover{
+    background: rgb(177, 140, 192);
+}
+
+.favoritar:focus{
+    background: rgb(177, 140, 192);
+}
+
+footer {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
